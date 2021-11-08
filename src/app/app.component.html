@@ -1,0 +1,25 @@
+<div class="container-fluid">
+
+    <h1 class="d-flex justify-content-center" style="background-color: #37474f; color: white; padding: 10px; cursor: pointer;" [routerLink]="['']" >Employee Management Portal</h1>
+
+    <nav class="navbar navbar-expand-sm ">
+    <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <button routerLink="department"
+            class="m-1 btn-lg btn-light btn-outline-primary p-2" Button>Departments</button>
+        </li>
+
+        <li class="nav-item">
+            <button routerLink="employee"
+            class="m-1 btn-lg btn-light btn-outline-primary p-2" Button>Employees</button>
+        </li>
+    </ul>
+    </nav>
+   
+    <router-outlet></router-outlet>
+    
+</div>
+
+<!-- <div>
+    <app-display></app-display>
+</div> -->

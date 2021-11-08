@@ -1,0 +1,26 @@
+
+<div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col-lg-12 mt-4">
+            <h1 style="text-align: center; color: black;">Add Department</h1>
+        </div>
+    </div>
+
+    <div class="col-lg-12 col-sm-12 mt-4">
+            
+        <form [formGroup]="DepartmentForm" class="form-inline"  style="text-align: center;" (ngSubmit)="submitName()">
+            <div class="" style="display: flex;justify-content: center; margin-top:5%;">
+                <input type="text" placeholder="Enter Department here" class="w-75 my-input form-control"  formControlName="Name">
+                <input type="submit"  class="btn btn-lg btn-primary" value="Add">
+            </div>
+    </form> 
+
+    <div class="row mt-4">
+            <div class="col-lg-12" style="text-align: center;">
+                <input type="submit" class="btn btn-primary btn-sm " [routerLink]="['/department']"   style="text-align: center; " value="Back">
+            </div>
+        </div>
+       
+</div>
+    
+</div>
