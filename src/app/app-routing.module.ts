@@ -8,7 +8,7 @@ import { EditEmployeeComponent } from './edit-employee/edit-employee.component';
 import { EmployeeComponent } from './employee/employee.component';
 
 const routes: Routes = [
-  {path:'',component:DisplayComponent},
+{path:'',component:DisplayComponent},
 {path:'employee',component:EmployeeComponent},
 {path:'department',component:DepartmentComponent},
 {path:'addDepartment',component:AddDepartmentComponent},
