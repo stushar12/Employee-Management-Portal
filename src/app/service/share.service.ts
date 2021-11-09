@@ -9,8 +9,8 @@ import { Department, Employee } from '../model';
 })
 export class ShareService {
 
-
-  readonly APIUrl="http://tushar12-001-site1.etempurl.com/api";
+//https://cors-everywhere.herokuapp.com/
+  readonly APIUrl="https://cors-everywhere.herokuapp.com/http://tushar12-001-site1.etempurl.com/api";
 
   constructor(private http:HttpClient) {}
 
